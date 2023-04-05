@@ -1,0 +1,118 @@
+body{
+    border: 10px groove green ;
+    margin: 0;
+    background:url(./white-cloud-blue-sky.jpg);
+    background-size: cover;
+}
+h1{
+    color: darkblue;
+}
+input {
+    text-align: center;
+  }
+.box{
+    background-color:  black;
+    color: white;
+    border: 5px solid red;
+    font-size: 30px;
+    font-style: italic;
+    }
+.leftBox{
+     width: 350px;
+     height: 100px;
+     border-radius: 15px;
+     margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 150%;
+   }
+.midBox{
+    width: 450px;
+    height: 30px;
+    margin-left: -100px;
+    border-radius: 25px;
+    margin-top: 30px;
+   padding: 25px 5px 5px 80px;
+    }
+.rightBox{
+    width: 350px;  
+    height: 100px;
+    margin-left: 300px;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 150%;
+    padding: 40px 40px 40px 40px;
+    }
+.upparContainer{
+    display: flex;
+}
+.circle{
+   border-radius: 50%;
+   width: 300px;
+   height: 300px; 
+   background-color:lightseagreen; 
+   border: 5px solid gray;
+   margin-left: 30px;
+   margin-top: 200px;
+}
+.Textcircle{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 100px;
+    }
+.Form{
+    width: 300px;
+    height: 500px; 
+    border: 10px red dashed; 
+    margin-left: 250px;
+    text-align: center;
+    line-height: 150%;
+    background-color: white;
+    color: crimson;
+    margin-top: 20px;
+    }
+.midContainer{
+    display: flex;
+}
+#fo{
+    font-size: 20px;
+    color: crimson;
+}
+.lowerContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+} 
+.menu{
+    width: 400px;
+    height: 300px;
+    border: 3px solid green;
+    background-color: lightseagreen;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 150%;
+}
+.lastbox{
+    height: 325px;
+}
+.cook{
+    color: blue;
+}
+.co{
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 500px;
+}
